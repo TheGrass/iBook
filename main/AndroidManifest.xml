@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ntu.wg.cq.ibook">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:name=".app.IApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/book"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".function.start.activity.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".function.start.activity.IBookActivity" />
+        <activity android:name=".function.user.view.activity.LoginActivity" />
+        <activity android:name=".function.user.view.activity.RegisterActivity" />
+        <activity android:name=".function.user.view.activity.ForgetActivity" />
+        <activity android:name=".function.read.view.activity.ReadActivity"/>
+        <activity android:name=".function.search.view.activity.SearchActivity" />
+        <activity android:name=".function.search.view.activity.BookInfoActivity" />
+        <activity android:name=".function.discover.view.activity.RankActivity" />
+        <activity android:name=".function.discover.view.activity.BookListActivity" />
+        <activity android:name=".function.discover.view.activity.QAGameActivity" />
+        <activity android:name=".function.discover.view.activity.BaActivity" />
+        <activity android:name=".function.user.view.activity.AddBookActivity" />
+        <activity android:name=".function.discover.view.activity.BaCardActivity" />
+        <activity android:name=".function.discover.view.activity.PostActivity" />
+        <receiver android:name=".function.discover.game.MinaBroadCastReceiver" />
+    </application>
+</manifest>

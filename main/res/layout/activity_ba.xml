@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ntu.wg.cq.ibook.custom.TopBar
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_marginTop="@dimen/t18"
+        android:layout_marginLeft="@dimen/t8"
+        android:layout_marginRight="@dimen/t8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

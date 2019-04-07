@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_to_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/search"
+        android:drawablePadding="@dimen/t8"
+        android:text="@string/search_book"
+        android:textSize="@dimen/t18"
+        android:padding="@dimen/t8"
+        android:layout_marginLeft="@dimen/t8"
+        android:textColor="@color/grass"/>
+    <include layout="@layout/recyclerview" />
+</LinearLayout>

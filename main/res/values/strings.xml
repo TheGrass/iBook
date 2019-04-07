@@ -1,0 +1,93 @@
+<resources>
+    <!--App-->
+    <string name="app_name">看书吧</string>
+    <string name="A">A</string>
+    <string name="skip">跳过</string>
+    <string name="no_internet">网络暂时无法使用</string>
+    <string name="tip">提示</string>
+    <string name="sure">确认</string>
+    <string name="bookshelf">书架</string>
+    <string name="b_bookshelf">书\n架</string>
+    <string name="mine">设置</string>
+    <string name="b_mine">设\n置</string>
+    <string name="discover">发现</string>
+    <string name="b_discover">发\n现</string>
+    <string name="night">夜间</string>
+    <string name="barrage">弹幕</string>
+    <string name="background">背景</string>
+    <string name="cache">缓存</string>
+    <string name="swipe">滑动翻页</string>
+    <string name="click">点击翻页</string>
+    <string name="catalog">目录</string>
+    <string name="add_book">添加书籍</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="check_update">检查更新</string>
+    <string name="close">关闭</string>
+    <!--书架-->
+    <string name="top">置顶</string>
+    <string name="delete">删除</string>
+    <string name="search_book">搜索书籍</string>
+    <!--发现-->
+    <string name="hint_search">请输入书名/作者名</string>
+    <string name="classify">分类</string>
+    <string name="rank">排行</string>
+    <string name="recommend">好书推荐</string>
+    <string name="game">小游戏</string>
+    <string name="community">社区</string>
+    <string name="search">搜索</string>
+    <string name="description">简介</string>
+    <string name="add">加入书架</string>
+    <string name="read">开始阅读</string>
+    <string name="goto_ba">进入书吧</string>
+    <string name="no_find">没有想要的? 点击添书</string>
+    <string name="clazz1">玄幻</string>
+    <string name="clazz2">科幻</string>
+    <string name="clazz3">网游</string>
+    <string name="clazz4">历史</string>
+    <string name="clazz5">修真</string>
+    <string name="clazz6">都市</string>
+    <string name="clazz7">恐怖</string>
+    <string name="clazz8">其他</string>
+    <string name="shuba">书吧</string>
+    <string name="shudan">书单</string>
+    <string name="game_1">慧眼识书</string>
+    <string name="game_2">答题</string>
+    <!--用户账号-->
+    <string name="login">登录</string>
+    <string name="null_mail_pwd">用户名或密码不能为空</string>
+    <string name="pwd_length_err">请输入6-10位密码</string>
+    <string name="to_login">请先登录</string>
+    <string name="hint_id">邮箱地址</string>
+    <string name="hint_password">6-10位密码</string>
+    <string name="mail">请输入邮箱：</string>
+    <string name="password">创建密码：</string>
+    <string name="new_password">新密码：</string>
+    <string name="sure_pwd">确认密码：</string>
+    <string name="input_ver_code">验证码：</string>
+    <string name="logout">退出登录</string>
+    <string name="register">用户注册</string>
+    <string name="read_time">阅读时间</string>
+    <string name="forget">忘记密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="verification">获取验证码</string>
+    <string name="digits">.@0123456789abcdefghijklmnopqrstuvwxyzABCDEFJHIJKLMNOPQRSTUVWXYZ</string>
+    
+    <string name="test">一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一</string>
+    <string name="hard">难度：低</string>
+    <string name="hard_2">中</string>
+    <string name="hard_1">低</string>
+    <string name="hard_3">高</string>
+    <string name="book_list_share">分享书单</string>
+    <string name="get_book">获得书单</string>
+    <string name="refresh">换一批</string>
+    <string name="warn">书籍·图片来自网络及网友\n如有侵权，请联系删除</string>
+    <string name="tips">收到请求后\n将尽力为你寻找该书籍</string>
+    <string name="post_ok">提交成功</string>
+    <string name="card">讨论区</string>
+    <string name="post_card">发帖</string>
+    <string name="cancel">取消</string>
+    <string name="comment">评论</string>
+    <string name="open">打开</string>
+    <string name="user_custom">请选择需要保留的功能</string>
+
+</resources>

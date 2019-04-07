@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ntu.wg.cq.ibook.custom.TopBar
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/title"
+        android:layout_below="@+id/top_bar"
+        android:layout_marginTop="@dimen/t8"
+        android:background="@drawable/bg_input"
+        android:layout_width="match_parent"
+        android:hint="请输入标题(10字)"
+        android:textSize="@dimen/t18"
+        android:textCursorDrawable="@drawable/cursor_bg"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="@dimen/t4"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_content"
+        android:hint="请输入内容(50字)"
+        android:maxLength="50"
+        android:gravity="start"
+        android:padding="@dimen/t4"
+        android:layout_below="@+id/title"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/t18"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textCursorDrawable="@drawable/cursor_bg"
+        android:background="@drawable/bg_edittext"/>
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textCursorDrawable="@drawable/cursor_bg"
+        android:textSize="@dimen/t16"
+        android:layout_marginBottom="@dimen/t4"
+        android:layout_marginRight="@dimen/t4"
+        android:textColor="@color/split_color"
+        android:layout_alignBottom="@+id/edt_content"
+        android:layout_alignRight="@+id/edt_content"/>
+
+</RelativeLayout>

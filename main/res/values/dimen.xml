@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar">46dp</dimen>
+    <dimen name="t0">0dp</dimen>
+    <dimen name="t.1">0.1dp</dimen>
+    <dimen name="t.5">0.5dp</dimen>
+    <dimen name="t1">1dp</dimen>
+    <dimen name="t2">2dp</dimen>
+    <dimen name="t4">4dp</dimen>
+    <dimen name="t6">6dp</dimen>
+    <dimen name="t8">8dp</dimen>
+    <dimen name="t10">10dp</dimen>
+    <dimen name="t12">12dp</dimen>
+    <dimen name="t14">14dp</dimen>
+    <dimen name="t16">16dp</dimen>
+    <dimen name="t18">18dp</dimen>
+    <dimen name="t20">20dp</dimen>
+    <dimen name="t22">22dp</dimen>
+    <dimen name="t24">24dp</dimen>
+    <dimen name="t26">26dp</dimen>
+    <dimen name="t28">28dp</dimen>
+    <dimen name="t30">30dp</dimen>
+    <dimen name="t32">32dp</dimen>
+    <dimen name="t34">34dp</dimen>
+    <dimen name="t50">50dp</dimen>
+    <dimen name="t60">60dp</dimen>
+    <dimen name="t80">80dp</dimen>
+    <dimen name="t100">100dp</dimen>
+    <dimen name="t120">120dp</dimen>
+    <dimen name="t140">140dp</dimen>
+    <dimen name="t200">200dp</dimen>
+    <dimen name="t70">70dp</dimen>
+    <dimen name="t150">150dp</dimen>
+</resources>

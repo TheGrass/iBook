@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipe">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/swipe_ba"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/to_top"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t20"
+            android:gravity="center"
+            android:paddingLeft="@dimen/t20"
+            android:paddingRight="@dimen/t20"
+            android:text="@string/shuba"/>
+        <TextView
+            android:id="@+id/swipe_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/delete"
+            android:textColor="@color/white"
+            android:textSize="@dimen/t20"
+            android:gravity="center"
+            android:paddingLeft="@dimen/t20"
+            android:paddingRight="@dimen/t20"
+            android:text="@string/delete"/>
+    </LinearLayout>
+    <include
+        android:id="@+id/item"
+        layout="@layout/item_book_1"/>
+</com.daimajia.swipe.SwipeLayout>
